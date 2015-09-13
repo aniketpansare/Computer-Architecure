@@ -16,7 +16,7 @@ la $a0,StringBefore
 syscall
 
 li $v0,4	    
-la $a0,string	    #Print the string in upper case
+la $a0,string	    #Print the string in lower case
 syscall 
 
 
